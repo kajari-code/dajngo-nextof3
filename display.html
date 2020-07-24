@@ -1,0 +1,12 @@
+Details:
+<hr>
+<br>
+{% if details  %}
+{% for d in details %}
+    {{d.Username}}
+    {{d.Password}}
+    {{d.PhoneNo}}
+    {{d.Address}}
+    <hr>
+{% endfor %}
+{% endif %}
